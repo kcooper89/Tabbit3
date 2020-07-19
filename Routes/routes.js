@@ -52,8 +52,6 @@ router.put('/api/workouts/:id', (req, res) => {
         });
 });
 
-// finding the first 7 workouts
-//.limit(7)
 
 router.put ('api/workouts/range', (req, res) => {
     console.log(req.params.id)
